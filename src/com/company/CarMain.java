@@ -19,6 +19,39 @@ public class CarMain {
 
         carObj2.peso = 650.50;
         System.out.println(carObj2);
+
+
+        CocheElectrico cocheElectrico= new CocheElectrico();
+
+        cocheElectrico.motorElec = "56rg";
+        cocheElectrico.color = "Verde";
+        cocheElectrico.velocidad= 250;
+        cocheElectrico.peso=350.20;
+        cocheElectrico.fabricante="UnaEmpresa";
+
+        System.out.println(cocheElectrico);
+
+
+        String motorHibrido = null;
+        CocheHibrido cocheHibrido20 = new CocheHibrido( motorHibrido);
+        cocheHibrido20.motorHibrido= "MX650";
+        cocheHibrido20.color="rosado";
+        cocheHibrido20.modelo="Ferrari";
+        cocheHibrido20.velocidad=250;
+
+        System.out.println(cocheHibrido20);
+
+        CocheElectrico cocheElectricoB = new CocheElectrico( );
+                cocheElectricoB.motorElec="XXR";
+                cocheElectricoB.color="ROSA";
+                cocheElectricoB.acelerar(50);
+
+
+        System.out.println(cocheElectricoB);
+        cocheElectricoB.acelerar(60);
+        System.out.println(cocheElectricoB);
+
+
     }
 
 }

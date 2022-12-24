@@ -12,7 +12,9 @@ public class Car {
     Double largo;
     Integer velocidad = 0;
 
+public Car(){
 
+}
     //CONSTRUCTORES
     //metodo que nos permiten crear objetos
     // de esa clase si no agregamos un constructor habra uno por defecto que permitira crear objetos pero sin agregar valores
