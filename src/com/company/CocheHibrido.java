@@ -2,6 +2,10 @@ package com.company;
 
 public class CocheHibrido extends Car {
 
+
+    public CocheHibrido() {
+
+    }
     String motorHibrido;
 
 public  CocheHibrido(String motorHibrido){
