@@ -28,7 +28,6 @@ public Car(){
         this.peso = peso;
         this.largo = largo;
 
-
     }
 
 

@@ -9,6 +9,8 @@ public class ArrayMain {
         String nombre3 = "nombre3";
         String nombre4 = "nombre4";
 
+
+
         String[] nombres = new String[4];
 
         String[]nombres2 = new String[]{nombre1,nombre2,nombre3,nombre4};
@@ -25,7 +27,7 @@ public class ArrayMain {
         for(int i = 0; i < nombres.length; i ++){
 
             System.out.println(nombres[i]);
-            //los array son estaticos
+            //los array son ecstatic
 
         }
 

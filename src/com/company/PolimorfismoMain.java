@@ -14,6 +14,8 @@ CocheElectrico car2 = new CocheElectrico();
 //POLIMORFISMO
 
         Car car4 = new CocheElectrico();
+        car4.peso= 13.25;
+        car4.modelo="mx56";
 
 
         Car car5 = new CocheHibrido();
